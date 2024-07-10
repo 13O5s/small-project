@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 0 10px;
+}
+header{
+    background-color:green;
+}
+header .container .row
+{
+    display: flex;
+    align-items: space-around;
+}

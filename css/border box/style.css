@@ -1,0 +1,30 @@
+.flex-parent
+{
+    display: flex;
+    border: 1px solid red;
+    flex-direction: column;
+}
+/* .flex-parent div{
+    flex-basis: calc(100% / 3);
+    border: 1px solid black;
+    
+} */
+.box1,.box2,.box3
+{
+    border: 1px solid black;
+}
+.box1
+{
+    flex-basis: 5  0%;
+    flex-shrink: 0;
+}
+.box2
+{
+    flex-basis: 50%;
+    flex-grow: 1;
+
+}
+.box3
+{
+    flex: 0 1 30%;
+}

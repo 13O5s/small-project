@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    padding: 10px;
+}
+header {
+    width: 100%;
+    min-height: 50px;
+    background-color: lightgreen;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .input{
+    height: fit-content;
+    width: auto;
+    padding: 10px;
+}
+#main{
+    width: 70%;
+    padding: 10px;
+    height: auto;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+}
+form{
+    max-width: auto;
+    margin: 0 auto;
+    background-color: #ccc;
+    height: 30px;
+}
+header + div{
+    padding: 0;
+}

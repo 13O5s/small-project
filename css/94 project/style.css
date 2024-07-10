@@ -1,0 +1,135 @@
+a{
+    text-decoration: none;
+}
+body
+{
+    margin: 0;
+    background: #f9f9f9;
+}
+#brand
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    font-size: 58px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+#nav-container
+{
+    height: auto;
+    float: left;
+    border-right: 1px solid #ccc;
+    position: fixed;
+    width: 105px;
+}
+.nav
+{
+    list-style: none;
+    padding-left: 0;
+}
+#nav-title
+{
+    font-size: 22px;
+    font-weight: bold;
+
+}
+.nav>li{
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+.nav>li:hover{
+    background-color: lightsteelblue;
+}
+.nav>li:last-child
+{
+    border-bottom: none;
+}
+.nav>li>a{
+    color: black;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+#body
+{
+    float: left;
+    width: calc(100% -105px);
+}
+#body, .row
+{
+    /* margin-left: 110px; */
+    font-size: 18px;
+}
+p{
+    margin: 0;
+}
+blockquote::after, blockquote::before
+{
+    content: "\"";
+}
+blockquote
+{
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    font-weight: bold;
+    background-color: #fff;
+    font-style: italic;
+    border: 2px solid #ccc;
+}
+blockquote > em{
+    font-size: 20px;
+    text-decoration: double;
+    color: red;
+    text-transform: uppercase;
+}
+/* .row > div{
+    display: inline-block;
+    width: calc(calc(100% / 3) - 5px);
+    text-align: center;
+    border-right: 1px solid #ddd;
+}
+.row > div:last-child
+{
+    width: 100%;
+    border: none;
+    display: block;
+} */
+footer {
+    font-size: 13px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: block;
+    clear: both;
+    background-color: #333;
+    color: #fff;
+    margin-top: 60px;
+    float: left;
+    width: 100%;
+  }
+.row{
+    display: block;
+    width: 100%;
+}
+.col1, .col2, .col3
+{
+    display: inline-block;
+    width: calc(31% - 60px);
+}
+p
+{
+    margin-bottom: 5px;
+}
+p>em
+{
+    font-weight: bold;
+
+}
+
